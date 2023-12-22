@@ -11,33 +11,6 @@ import kotlinx.coroutines.tasks.await
 
 class App : Application() {
     private lateinit var db : DatabaseReference
-//    private lateinit var _cardNames: Array<String>
-//    val cardNames : Array<String>
-//        get() = _cardNames
-//    private lateinit var _cardTimes: IntArray
-//    val cardTimes : IntArray
-//        get() = _cardTimes
-//    private lateinit var _cardPrices: IntArray
-//    val cardPrices : IntArray
-//        get() = _cardPrices
-//    private lateinit var _categories: Array<String>
-//    val categories : Array<String>
-//        get() = _categories
-//    private lateinit var _newsTitles: Array<String>
-//    val newsTitles : Array<String>
-//        get() = _newsTitles
-//    private lateinit var _newsDescriptions: Array<String>
-//    val newsDescriptions : Array<String>
-//        get() = _newsDescriptions
-//    private lateinit var _newsPrices: IntArray
-//    val newsPrices : IntArray
-//        get() = _newsPrices
-//    private lateinit var _newsImages: TypedArray
-//    val newsImages : TypedArray
-//        get() = _newsImages
-//    private lateinit var _newsBackgrounds: TypedArray
-//    val newsBackgrounds : TypedArray
-//        get() = _newsBackgrounds
     private lateinit var _cards: Array<AnalysisCardClass>
     val cards : Array<AnalysisCardClass>
         get() = _cards
@@ -95,14 +68,5 @@ class App : Application() {
             taskCards.await()
             taskNews.await()
         }
-//        _cardNames = resources.getStringArray(R.array.card_names)
-//        _cardTimes = resources.getIntArray(R.array.card_times)
-//        _cardPrices = resources.getIntArray(R.array.card_prices)
-//        _categories = resources.getStringArray(R.array.menu_categories)
-//        _newsPrices = resources.getIntArray(R.array.news_prices)
-//        _newsTitles = resources.getStringArray(R.array.news_titles)
-//        _newsDescriptions = resources.getStringArray(R.array.news_descriptions)
-//        _newsImages = resources.obtainTypedArray(R.array.news_images)
-//        _newsBackgrounds = resources.obtainTypedArray(R.array.news_backgrounds)
     }
 }

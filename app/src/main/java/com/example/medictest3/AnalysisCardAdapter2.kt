@@ -12,19 +12,7 @@ class AnalysisCardAdapter2(private val context: Context) : RecyclerView.Adapter<
     private val analysisCards : Array<AnalysisCardClass>
     private val myApp : App = context.applicationContext as App
     init {
-//        val size = minOf(myApp.cardNames.size
-//        , myApp.cardPrices.size
-//        , myApp.cardTimes.size)
-//        AnalysisCards = ArrayList(size)
-//
-//        for ( i in 0..<size){
-//            AnalysisCards.add (AnalysisCardClass(
-//                myApp.cardNames[i]
-//            , myApp.cardTimes[i]
-//            , myApp.cardPrices[i])
-//            )
         analysisCards=myApp.cards
-//        }
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AnalysisCardViewHolder {
         val inflater = LayoutInflater.from(parent.context)

@@ -14,25 +14,7 @@ class NewsAdapter2(private val context: Context) : RecyclerView.Adapter<NewsAdap
     private var news: Array<NewsClass>
     private val myApp : App = context.applicationContext as App
     init {
-//        val size = minOf(myApp.newsDescriptions.size,
-//            myApp.newsPrices.size,
-//            myApp.newsTitles.size,
-//            myApp.newsImages.length(),
-//            myApp.newsBackgrounds.length())
-
         news = myApp.news
-
-//        for ( i in 0..<size){
-//            news.add(
-//                NewsClass(
-//                    myApp.newsTitles[i],
-//                    myApp.newsPrices[i],
-//                    myApp.newsDescriptions[i],
-//                    myApp.newsImages.getDrawable(i),
-//                    myApp.newsBackgrounds.getDrawable(i)
-//                )
-//            )
-//        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NewsViewHolder {

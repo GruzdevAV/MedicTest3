@@ -12,7 +12,7 @@ class CategoriesAdapter2(private val context: Context) : RecyclerView.Adapter<Ca
     private val categories: Array<String>
     private val myApp : App = context.applicationContext as App
     private var _selectedCategory : Int?
-    var SelectedCategory : Int?
+    var selectedCategory : Int?
         get() = _selectedCategory
         set(value) = run{
             _selectedCategory?.let { notifyItemChanged(it) }
@@ -36,7 +36,7 @@ class CategoriesAdapter2(private val context: Context) : RecyclerView.Adapter<Ca
         val cat = categories[position]
         with(holder.binding){
             btnCategory.text = cat
-            if (position==SelectedCategory){
+            if (position==selectedCategory){
                 btnCategory.background = AppCompatResources.getDrawable(context,R.drawable.btn_chip_on)
                 btnCategory.setTextColor(context.resources.getColor(R.color.white))
             }

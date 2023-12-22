@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.medictest3.AnalysisCardAdapter2
-//import com.example.medictest3.CategoriesAdapter
 import com.example.medictest3.CategoriesAdapter2
 import com.example.medictest3.NewsAdapter2
 import com.example.medictest3.R
@@ -52,7 +51,7 @@ class AnalysisFragment : Fragment() {
 
         newsAdapter = NewsAdapter2(requireContext())
         categoriesAdapter = CategoriesAdapter2(requireContext())
-        categoriesAdapter.SelectedCategory = 0
+        categoriesAdapter.selectedCategory = 0
         analysisCardAdapter = AnalysisCardAdapter2(requireContext())
 
         rvNews.adapter=newsAdapter
