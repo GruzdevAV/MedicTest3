@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="input_regular" parent="text_regular">
+<!--        <item name="android:textColorHint">@color/input_hint</item>-->
+        <item name="android:textColorHint">@color/teal_200</item>
+        <item name="android:background">@drawable/input_default</item>
+        <item name="cursorColor">@color/accent</item>
+        <item name="android:queryHint">Искать анализы</item>
+    </style>
+    
+    <style name="input_filled" parent="input_regular">
+        <item name="android:background">@drawable/input_default</item>
+    </style>
+
+    <style name="input_error" parent="input_regular">
+        <item name="android:background">@drawable/input_error</item>
+    </style>
+
+
+    
+</resources>

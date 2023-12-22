@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        style="@style/btn_small.delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <SearchView
+        android:layout_width="409dp"
+        android:layout_height="200dp"
+        android:background="@drawable/input_default"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="hello"
+        android:inputType="text"
+        android:textColorHint="#9F6464"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="373dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

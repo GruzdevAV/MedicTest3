@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string-array name="menu_categories">-->
+<!--        <item>Популярные</item>-->
+<!--        <item>Covid</item>-->
+<!--        <item>Комплексные</item>-->
+<!--        <item>Чекапы</item>-->
+<!--        <item>Женщинам</item>-->
+<!--        <item>Мужчинам</item>-->
+<!--        <item>Детям</item>-->
+<!--        <item>Биохимия</item>-->
+<!--        <item>Гормоны</item>-->
+<!--        <item>Иммунитет</item>-->
+<!--        <item>Витамины</item>-->
+<!--        <item>Аллергены</item>-->
+<!--        <item>Анализ крови</item>-->
+<!--        <item>Анализ мочи</item>-->
+<!--        <item>Анализ кала</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="card_names">-->
+<!--        <item>ПЦР-тест на определение РНК коронавируса стандартный</item>-->
+<!--        <item>Клинический анализ крови с лейкоцитарной формулировкой</item>-->
+<!--        <item>Биохимический анализ крови, базовый</item>-->
+<!--        <item>СОЭ (венозная кровь)</item>-->
+<!--        <item>Общий анализ мочи</item>-->
+<!--        <item>Тироксин свободный (Т4 свободный)</item>-->
+<!--        <item>Группа крови + Резус-фактор</item>-->
+<!--    </string-array>-->
+<!--    -->
+<!--    <integer-array name="card_times">-->
+<!--        <item>2</item>-->
+<!--        <item>1</item>-->
+<!--        <item>1</item>-->
+<!--        <item>1</item>-->
+<!--        <item>1</item>-->
+<!--        <item>1</item>-->
+<!--        <item>1</item>-->
+<!--    </integer-array>-->
+<!--    <integer-array name="card_prices">-->
+<!--        <item>1800</item>-->
+<!--        <item>690</item>-->
+<!--        <item>2440</item>-->
+<!--        <item>240</item>-->
+<!--        <item>350</item>-->
+<!--        <item>680</item>-->
+<!--        <item>750</item>-->
+<!--    </integer-array>-->
+
+<!--    <integer-array name="news_prices">-->
+<!--        <item>8000</item>-->
+<!--        <item>4000</item>-->
+<!--    </integer-array>-->
+<!--    <string-array name="news_titles">-->
+<!--        <item>Чек-ап для мужчин</item>-->
+<!--        <item>Подготовка к вакцинации</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="news_descriptions">-->
+<!--        <item>9 исследований</item>-->
+<!--        <item>Комплексное обследование перед вакцинацией</item>-->
+<!--    </string-array>-->
+<!--    <array name="news_images">-->
+<!--        <item>@drawable/tt1</item>-->
+<!--        <item>@drawable/tt2</item>-->
+<!--    </array>-->
+<!--    <array name="news_backgrounds">-->
+<!--        <item>@drawable/test_one</item>-->
+<!--        <item>@drawable/test_two</item>-->
+<!--    </array>-->
+</resources>
